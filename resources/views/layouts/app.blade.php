@@ -38,9 +38,9 @@
 
         <div class="content mt-3">
 
-            @include('layouts.theme.plantilla')
+            {{-- @include('layouts.theme.plantilla') --}}
 
-            {{-- @yield('content') --}}
+            @yield('content')
             
             <!-- .animated -->
         </div><!-- .content -->
